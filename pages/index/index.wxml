@@ -1,0 +1,11 @@
+<swiper-bar right-width="{{ 65 }}" left-width="{{ 0 }}">
+
+  <view >我是内容</view>
+  <view slot="right">删除</view>
+</swiper-bar>
+
+<dialog id="dialog" />
+
+
+<view bind:tap="showModel" >确认框</view>
+

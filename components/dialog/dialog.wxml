@@ -1,0 +1,10 @@
+<view class="dialog" wx:if="{{show}}">
+  <view class="dialog-content">
+    <view class="title">标题</view>
+    <view class="message">消息</view>
+    <view class="btn-wrap">
+      <view class="btn cancel" bind:tap="clickCancel" >取消</view>
+      <view class="btn confirm"  bind:tap="handleClickOk" >确认</view>
+    </view>
+  </view>
+</view>

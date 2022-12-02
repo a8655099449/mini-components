@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "swiper-bar":"../../components/swiper-bar/swiper-bar",
+    "dialog":"../../components/dialog/dialog"
+  }
+}

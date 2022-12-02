@@ -1,0 +1,64 @@
+.dialog {
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+
+  .dialog-content {
+
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 4rpx;
+    background-color: #fff;
+    position: absolute;
+
+    top: 200rpx;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20rpx;
+    text-align: center;
+
+
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: space-between;
+
+    .btn {
+      width: 100rpx;
+      height: 40rpx;
+      border: 1px solid #000;
+      text-align: center;
+    }
+  
+  }
+
+}
+
+@-webkit-keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(320rpx);
+            transform: translateZ(320rpx);
+  }
+}
+@keyframes slide-fwd-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(320rpx);
+            transform: translateZ(320rpx);
+  }
+}
